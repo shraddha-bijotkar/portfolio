@@ -1,0 +1,10 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.nav-item:focus, .nav-item:hover {
+  border: 2px;
+  border-style: solid;
+  border-color: rgb(111, 211, 241);
+}

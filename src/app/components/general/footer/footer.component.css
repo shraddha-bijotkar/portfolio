@@ -1,0 +1,15 @@
+.list-group,
+.list-group-item {
+  background-color: unset;
+  color: rgb(194, 194, 194);
+}
+.list-group-item:hover {
+  transition: all 0.5s;
+  transform: translateY(-10px);
+}
+li {
+  display: block;
+}
+a {
+  all: unset;
+}

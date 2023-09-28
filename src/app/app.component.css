@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background: #1c2121;
+  color: rgb(194, 194, 194);
+}

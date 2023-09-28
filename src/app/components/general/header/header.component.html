@@ -1,0 +1,57 @@
+<nav class="navbar bg-dark navbar-expand-xl navbar-dark sticky-top">
+  <div class="container">
+    <button type="button" class="btn btn-outline-info">
+      <a
+        style="all: unset"
+        href="https://drive.google.com/file/d/11evVaeHM4_3IT2O-HksvXhGI83QX4Rd4/view?usp=drive_link"
+        >Resume <i class="fa fa-arrow-circle-o-down"></i
+      ></a>
+    </button>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#navbarOffcanvas"
+      aria-controls="navbarOffcanvas"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div
+      class="offcanvas offcanvas-end bg-dark"
+      id="navbarOffcanvas"
+      tabindex="-1"
+      aria-labelledby="offcanvasNavbarLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close btn-close-white text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <button
+            class="nav-item nav-link py-1 px-2"
+            aria-current="page"
+            (click)="scroll('about')"
+          >
+            About
+          </button>
+          <button class="nav-item nav-link" (click)="scroll('exp')">
+            Experience
+          </button>
+          <button class="nav-item nav-link" (click)="scroll('projects')">
+            Projects
+          </button>
+          <button class="nav-item nav-link" (click)="scroll('contact')">
+            Contact Me!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -12,13 +12,14 @@
   font-size: 80px;
   background: linear-gradient(
     120deg,
+    #f6a5ff,
     #a5f5ff,
     #7e57c2,
-    #0087f2,
     #26c6da,
     #eeff41,
     #f6a5ff,
-    #a5f5ff
+    #a5f5ff,
+    #26c6da
   );
   color: #fff;
   background-clip: text;
